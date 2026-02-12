@@ -86,6 +86,7 @@ padding: 0;
 }
 .heading span{
     color: red;
+    font-family: "Rowdies", sans-serif;
 }
 .heading h1 {
     margin-top: -30px;
@@ -101,11 +102,10 @@ background-clip: text;
 }
 .heading h4{
     margin-top: -28px;
-    font-family: "Lexend Deca", sans-serif;
-    
+    font-family: "Rowdies", sans-serif;
 }
 .heading p{
-    font-family: "Lexend Deca", sans-serif;
+    font-family: "Rowdies", sans-serif;
 
 .icon-text{
     margin-left: 0.5rem;
