@@ -5,18 +5,6 @@ body {
 margin: 0;
 padding: 0;
 }
-@font-face {
-    font-family: boldfont;
-    src: url("../font/Bungee-Regular.ttf");
-}
-@font-face {
-    font-family: smallfont;
-    src: url("../font/LexendDeca-Black.ttf");
-}
-@font-face {
-    font-family:middumfont;
-    src: url("../font/Rowdies-Bold.ttf");
-}
 .navi-bar{
     padding: 1px;
     align-items: center;
@@ -76,12 +64,17 @@ padding: 0;
 .heading{
     font-size: 1rem;
     margin-left:0.5rem ;
-    
+    font-family: 'Open Sans';
     position: relative;
     top: -30px;
 }
+.heading h2{
+    font-family: "Rowdies", sans-serif;
+    
+}
 .heading span{
     color: red;
+}
 .heading h1 {
     margin-top: -30px;
     margin-left: -100px;
@@ -96,10 +89,12 @@ background-clip: text;
 }
 .heading h4{
     margin-top: -28px;
+    font-family: "Rowdies", sans-serif;
     
 }
 .heading p{
-    
+    font-family: "Lexend Deca", sans-serif;
+}
 
 .icon-text{
     margin-left: 0.5rem;
@@ -286,4 +281,4 @@ font-size: 20px;
     width: 100%;
     height: 20rem;
     background-color: ;
-}
+    }
