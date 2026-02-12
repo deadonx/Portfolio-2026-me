@@ -1,0 +1,296 @@
+body {
+    color: white;
+    font-family: smallfont;
+    background-color: black;
+margin: 0;
+padding: 0;
+}
+@font-face {
+    font-family: boldfont;
+    src: url("../font/Bungee-Regular.ttf");
+}
+@font-face {
+    font-family: smallfont;
+    src: url("../font/LexendDeca-Black.ttf");
+}
+@font-face {
+    font-family:middumfont;
+    src: url("../font/Rowdies-Bold.ttf");
+}
+.navi-bar{
+    padding: 1px;
+    align-items: center;
+    height: 50px;
+    width :100%;
+    background-color: #232323;
+    background-color: transparent;
+    font-size:12px;
+    text-decoration: line-through ;
+    
+
+    
+}
+.name-bar span{
+    color: red;
+    
+}
+.navi-bar .name-bar{
+    margin-left: 1rem;
+}
+
+.pic{
+    text-align: center;
+    
+    margin-top: 3rem;
+}
+.pic img{
+    box-shadow: 0px 0px 10px 5px orangered;
+    text-decoration: none;
+    border-radius: 100%;
+    border: none;
+    animation: imgani 3s linear infinite;
+}
+@keyframes imgani{
+    0%{
+        position: relative;
+        top: 0rem;
+    }
+    25%{
+        position: relative;
+        top: 0.3rem;
+    }
+    50%{
+        position: relative;
+        top: 0rem;
+    }
+    75%{
+        position: relative;
+        top: -0.3rem;
+    }
+    100%{
+        position: relative;
+        top: 0rem;
+    }
+    
+}
+.heading{
+    font-size: 1rem;
+    margin-left:0.5rem ;
+    font-family: 'Open Sans';
+    position: relative;
+    top: -30px;
+}
+.heading h2{
+    font-family: middumfont;
+    
+}
+.heading span{
+    color: red;
+}
+.heading h1 {
+    margin-top: -30px;
+    margin-left: -100px;
+    font-family: boldfont;
+    text-transform: uppercase;
+text-align: center;
+background: linear-gradient(to right,orangered,#FEB500,#FE3F03,#EE570D);
+background-size: 200%;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.heading h4{
+    margin-top: -28px;
+    font-family: smallfont;
+    
+}
+.heading p{
+    font-family: smallfont;
+}
+
+.icon-text{
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    position: relative;
+    top: -35px;
+    align-items: center;
+    
+}
+.icons{
+    position: relative;
+    top: -25px;
+    
+} 
+.box{
+    gap: 0.2rem;
+    row-gap: 1rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.one-box{
+    height: 15rem;
+    border-radius: 10px;
+    flex-basis: 200;
+    flex-grow: 1;
+    width: 7rem;
+    margin-left: 0.5rem;
+    background-color: #232323;
+    
+}
+.two-box{
+    height: 15rem;
+    border-radius: 10px;
+    flex-basis: 200;
+    flex-grow: 1;
+    width: 7rem;
+    margin-left: 0.5rem;
+    background-color: #232323;
+}
+.three-box{
+    
+    border-radius: 10px;
+    flex-basis: 200;
+    flex-grow: 1;
+    width: 7rem;
+    height: 15rem;
+    margin-left: 0.5rem;
+    background-color: #232323;
+}
+.skill{
+    margin-top: -60px;
+    text-align: center;
+}
+.box h4 {
+    margin-top:-0.5rem ;
+}
+.box button{
+    font-family: smallfont;
+    border-radius: 90px;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 18px orangered;
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+
+i {
+    text-decoration: none;
+    color: white;
+    border-radius: 100%;
+    padding: 10px;
+    border: 1px 2px solid orangered;
+    box-shadow: 2px 2px 18px orangered;
+    background-color: orangered;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.process-heading{
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.progress-box{
+    gap: 1rem;
+    row-gap: 1rem;
+    margin-top:2rem;
+    text-align: center;
+    background-color: ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.html-progress{
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis:200;
+    background-color:#232323 ;
+}
+.css-progress{
+background-color:#232323 ;
+border-radius: 20px;
+    flex-grow: 1;
+    flex-basis:200;
+    text-align: center;
+    align-items: center;
+}
+.js-progress {
+    background-color:#232323 ;
+border-radius: 20px;
+    flex-grow: 1;
+    flex-basis: 200;
+    text-align: center;
+align-items: center;
+}
+
+.html-bar{
+  flex-grow: 1;
+  fill: none;
+  stroke: blueviolet;
+  stroke-width: 20px;
+  stroke-dasharray: 610;
+  stroke-dashoffset:610 ;
+  animation: ani 2s linear forwards;
+}
+
+.css-bar {
+  flex-grow: 1;
+  fill: none;
+  stroke: orangered;
+  stroke-width: 20px;
+  stroke-dasharray: 510;
+  stroke-dashoffset: 510;
+  animation: ani 2s linear forwards;
+}
+.js-bar{
+  flex-grow: 1;
+  fill: none;
+  stroke: lightskyblue;
+  stroke-width: 20px;
+  stroke-dasharray: 370;
+  stroke-dashoffset:270 ;
+  animation: ani 2s linear forwards;
+}
+
+
+@keyframes ani{
+  100%{
+    stroke-dashoffset: 200.7;
+  }
+}
+#number{
+  flex-grow: 1;
+ position: relative;
+ top: -110px;
+  font-size: 20px;
+}
+#number1{
+  flex-grow: 1;
+ position: relative;
+ top: -110px;
+font-size: 20px;
+  
+}
+#number2{
+  flex-grow: 1;
+ position: relative;
+ top: -110px;
+  font-size: 20px;
+}
+.about-box{
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px white;
+    margin-top: 4rem;
+    width: 100%;
+    height: 20rem;
+    background-color: ;
+}
