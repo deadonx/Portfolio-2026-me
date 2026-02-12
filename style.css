@@ -101,12 +101,11 @@ background-clip: text;
 }
 .heading h4{
     margin-top: -28px;
-    font-family: smallfont;
+    font-family: "Lexend Deca", sans-serif;
     
 }
 .heading p{
-    font-family: smallfont;
-}
+    font-family: "Lexend Deca", sans-serif;
 
 .icon-text{
     margin-left: 0.5rem;
